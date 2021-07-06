@@ -9,6 +9,7 @@ body{
 h2{
     font-size: 30px;
     margin-bottom: 0;
+    margin-top: 0;
 }
 .flexible-section{
     display: flex;
@@ -31,7 +32,7 @@ h2{
 }
 p{
     font-size: 20px;
-    text-align: center;
+    text-align: justify;
     margin-top: 0;
 }
 #link-button{
@@ -59,4 +60,18 @@ p{
     font-size: 40px;
     margin-top: 5%;
     margin-bottom: 0;
+}
+.bottom-photo{
+    margin: 3.5%;
+    box-shadow: 10px 10px 10px gray; 
+    padding: 10px;  
+    border-radius: 10px;
+    background-color:whitesmoke;
+}
+.bottom-photo img{
+    border-radius: 10px;  
+}
+article{
+    font-size: 20px;
+    text-align: center;
 }
