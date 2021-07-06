@@ -8,28 +8,31 @@ body{
 }
 h2{
     font-size: 30px;
+    margin-bottom: 0;
 }
-.top-section{
+.flexible-section{
     display: flex;
-    
+    margin-top: 5%;   
 }
 .image-1{
     width:50%;
     text-align: right;
     margin-left: 10%;
     padding-right: 200px; 
-    padding-top: 30px;
+    
 }
 .top-section-text{
     width: 500px;
-    padding-left:100px;
-    margin-left: 10%;
+    padding-left:150px;
+    margin-left: 5%;
     text-align: justify; 
     padding-top: 50px;
     margin-top: 3%;
 }
-.top-section-text p{
+p{
     font-size: 20px;
+    text-align: center;
+    margin-top: 0;
 }
 #link-button{
     background-image: linear-gradient(orange, peru);
@@ -37,6 +40,23 @@ h2{
     text-decoration: none;
     padding: 5px 15px;
     border-radius: 5px;
-
-
+}
+.middle-section-text{
+    width: 30%;
+    padding-right:50px;
+    margin-right: 10%;
+    text-align: justify; 
+    padding-top: 50px;
+    margin-top: 8%;
+    padding-left: 200px;
+}
+.image-2{
+    margin-left: 5%;
+    padding-top: 20px;  
+}
+#fooditem{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5%;
+    margin-bottom: 0;
 }
