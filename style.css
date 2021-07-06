@@ -1,0 +1,42 @@
+body{
+    font-family: 'Teko', sans-serif;
+    background-image: url(shapes/7.png);
+}
+.headingstyle-1{
+    font-size: 70px;
+    color: firebrick;
+}
+h2{
+    font-size: 30px;
+}
+.top-section{
+    display: flex;
+    
+}
+.image-1{
+    width:50%;
+    text-align: right;
+    margin-left: 10%;
+    padding-right: 200px; 
+    padding-top: 30px;
+}
+.top-section-text{
+    width: 500px;
+    padding-left:100px;
+    margin-left: 10%;
+    text-align: justify; 
+    padding-top: 50px;
+    margin-top: 3%;
+}
+.top-section-text p{
+    font-size: 20px;
+}
+#link-button{
+    background-image: linear-gradient(orange, peru);
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+
+
+}
