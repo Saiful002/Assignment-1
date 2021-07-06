@@ -1,6 +1,26 @@
 body{
     font-family: 'Teko', sans-serif;
     background-image: url(shapes/7.png);
+    margin: 0%;
+    
+}
+#header{
+    width: 50%;
+   margin-left: 350px;
+   margin-top: 50px;
+
+}
+.topstyle{
+    margin: 3%;
+    background-image: linear-gradient(tomato, firebrick);
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 5px 5px 5px lightgray;
+
+
 }
 .headingstyle-1{
     font-size: 70px;
@@ -90,4 +110,5 @@ footer{
     font-size: 15px;
     background-color: black;
     color: white;
+    margin-bottom: 0%;
 }
