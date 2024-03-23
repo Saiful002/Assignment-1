@@ -4,22 +4,32 @@ body{
     margin: 0%;
     
 }
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    margin:0rem 0rem 3rem 0rem;
+}
 #header{
-    width: 50%;
-   margin-left: 350px;
-   margin-top: 50px;
+    width: 100%;
+   text-align: end;
 
 }
 .topstyle{
     margin: 3%;
-    background-image: linear-gradient(tomato, firebrick);
-    color: black;
+    background-image: linear-gradient(firebrick, firebrick);
+    background-color: black;
+    color: white;
     padding: 5px 10px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: 600;
-    box-shadow: 5px 5px 5px lightgray;
 
+
+}
+.topstyle:hover{
+border: 2px dotted white;
 
 }
 .headingstyle-1{
@@ -85,7 +95,7 @@ p{
 .bottom-photo{
     margin: 3.5%;
     box-shadow: 10px 10px 10px gray; 
-    padding: 15px;  
+    padding: 0.5rem;  
     border-radius: 10px;
     background-color:whitesmoke;
 }
